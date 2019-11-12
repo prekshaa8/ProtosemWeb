@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Josefin+Sans&display=swap');
+body {
+    font-family: Roboto;
+    background: #8E0E00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left,white, white);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,white, white);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+#container {
+  height: 350px;
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+.logo
+{
+    max-height: 80px;
+    max-width: 80px;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 0;
+    padding-right: 0;
+}
+.logo img
+{
+    width: 100px;
+    height: auto;
+}
+.logo1
+{
+    float: right;
+}
+.logo1 img
+{
+    width: 175px;
+    height: auto;
+    top:0;
+    transform: translate(-20%,-220%)
+
+}
+h1 {
+
+    color: rgb(255, 81, 50);
+    margin: 0;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-size: 25px;
+    font-weight: normal;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  h2 {
+    background:  rgb(179, 172, 170);
+    color: white;
+    margin: 0;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
